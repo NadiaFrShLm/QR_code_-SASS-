@@ -16,6 +16,7 @@ This is a solution to the QR code component challenge on Frontend Mentor
 
 - Semantic HTML5 markup (section, footer)
 - Flexbox (for the main section with the class="base")
+- SASS
 
 ### What I learned
 
