@@ -1,0 +1,74 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+section {
+  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.card {
+  padding: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 1.5rem;
+  max-width: 320px;
+  min-width: 300px;
+  background-color: var(--color-bg-card);
+  text-align: center;
+}
+
+img {
+  border-radius: 0.8rem;
+  width: 100%;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+p {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  padding: 1rem;
+}
+
+:root {
+  --color-bg: hsl(212, 45%, 89%);
+  --color-bg-card: hsl(0, 0%, 100%);
+  --color-text: hsl(220, 15%, 55%);
+  --color-text-title: hsl(218, 44%, 22%);
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: var(--color-bg);
+  font-family: "Outfit", sans-serif;
+}
+
+h1 {
+  font-weight: 400;
+  color: var(--color-text-title);
+}
+
+p {
+  color: var(--color-text);
+}/*# sourceMappingURL=styles.css.map */

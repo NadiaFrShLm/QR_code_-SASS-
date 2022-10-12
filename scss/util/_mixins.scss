@@ -1,0 +1,28 @@
+@use './variables' as *;
+
+@mixin radius($value: $borderRadius) {
+  border-radius: $value;
+}
+
+@mixin shadow($value: $boxShadow) {
+  box-shadow: $value;
+}
+
+@mixin padding-x($value: 1rem) {
+  padding-right: $value;
+  padding-left: $value;
+}
+
+@mixin padding($value: 1rem) {
+  padding: $value;
+}
+
+@mixin flex($justify: false, $align: center) {
+  display: flex;
+  align-items: $align;
+
+  @if $justify {
+    justify-content: $justify;
+  }
+  @content;
+}

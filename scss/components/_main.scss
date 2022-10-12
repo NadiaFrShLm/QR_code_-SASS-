@@ -1,0 +1,33 @@
+@use '../util' as *;
+
+main {
+  @include flex(center); //justify-content:center
+  min-height: 100vh;
+}
+section {
+  @include container-a;
+}
+.card {
+  @include padding;
+  @include shadow;
+  @include radius;
+  max-width: 320px;
+  min-width: 300px;
+  background-color: var(--color-bg-card);
+  text-align: center;
+}
+img {
+  @include radius(0.8rem);
+  width: 100%;
+}
+h1,
+p {
+  margin: 0;
+}
+p {
+  @include padding-x;
+  margin-bottom: 1.5rem;
+}
+h1 {
+  @include padding;
+}
